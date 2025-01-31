@@ -17,14 +17,14 @@ This project is a simple public API developed for HNG12 Stage 0 Backend Internsh
 ## API Documentation
 
 ### Endpoint
-`GET /`
+`GET /api/v1/info`
 
 ### Sample Response (200 OK)
 ```json
 {
-  "email": "your-email@example.com",
+  "email": "juliusadjeteysowah.com",
   "current_datetime": "2025-01-30T09:30:00Z",
-  "github_url": "https://github.com/yourusername/your-repo"
+  "github_url": "https://github.com/Gifted-Labs/hng-public-api.git"
 }
 ```
 
@@ -44,7 +44,7 @@ This project is a simple public API developed for HNG12 Stage 0 Backend Internsh
 ### Installation & Running Locally
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/Gifted-Labs/hng-public-api.git
    cd your-repo
    ```
 2. Build the project:
@@ -58,17 +58,14 @@ This project is a simple public API developed for HNG12 Stage 0 Backend Internsh
 
 ### Deployment
 The API is deployed at:
-[https://your-api-url.com](https://your-api-url.com)
+[https://hng-public-api-q10d.onrender.com](https://hng-public-api-q10d.onrender.com)
 
 ## Example Usage
 You can test the API using:
 ```sh
-curl -X GET https://your-api-url.com/
+curl -X GET https://hng-public-api-q10d.onrender.com/api/v1/info
 ```
 Or visit the URL in your web browser.
 
-## Additional Resources
-- [Java Developers for Hire](https://hng.tech/hire/java-developers)
-
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the Apache License.
