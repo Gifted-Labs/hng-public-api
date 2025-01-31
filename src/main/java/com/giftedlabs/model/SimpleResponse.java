@@ -10,5 +10,6 @@ public class SimpleResponse {
 
     private String email;
     private LocalDateTime current_datetime = LocalDateTime.now();
+
     private String githubUrl;
 }
