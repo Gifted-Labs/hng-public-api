@@ -2,7 +2,6 @@ package com.giftedlabs.model;
 
 import lombok.Data;
 
-
 import java.time.LocalDateTime;
 
 @Data
